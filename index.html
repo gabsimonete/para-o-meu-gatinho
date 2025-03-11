@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romantic Heart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <div class="curtain left"></div>
+  <div class="curtain right"></div>
+
+
+  <div class="heart" onclick="showImages()">❤️</div>
+
+
+  <div class="images-container">
+    <img src="lindo.png" alt="Imagem 1">
+    <img src="eu amo ele.png" alt="Imagem 2">
+    <img src="peixinho.png" alt="Imagem 3">
+    <img src="colinho.png" alt="Imagem 4">
+  </div>
+
+
+  <div class="central-text">eu te amo meu bebezinho
+    felia aniversário meu amor C: </div>
+
+  <script>
+
+    function showImages() {
+      document.querySelector('.images-container').style.display = 'block'; 
+      document.querySelector('.central-text').style.opacity = '1'; 
+    }
+  </script>
+
+</body>
+</html>
